@@ -1,0 +1,27 @@
+[Data]
+
+PosX0-Y0 = X :0   Y :0    Z :0    Status:0
+PosX0-Y1 = X :12   Y :12    Z :12    Status:0
+PosX0-Y2 = X :24   Y :24    Z :24    Status:0
+PosX0-Y3 = X :36   Y :36    Z :36    Status:0
+PosX0-Y4 = X :48   Y :48    Z :48    Status:0
+PosX1-Y0 = X :12   Y :12    Z :12    Status:0
+PosX1-Y1 = X :24   Y :24    Z :24    Status:0
+PosX1-Y2 = X :36   Y :36    Z :36    Status:0
+PosX1-Y3 = X :48   Y :48    Z :48    Status:0
+PosX1-Y4 = X :60   Y :60    Z :60    Status:0
+PosX2-Y0 = X :24   Y :24    Z :24    Status:0
+PosX2-Y1 = X :36   Y :36    Z :36    Status:0
+PosX2-Y2 = X :48   Y :48    Z :48    Status:0
+PosX2-Y3 = X :60   Y :60    Z :60    Status:0
+PosX2-Y4 = X :72   Y :72    Z :72    Status:0
+PosX3-Y0 = X :36   Y :36    Z :36    Status:0
+PosX3-Y1 = X :48   Y :48    Z :48    Status:0
+PosX3-Y2 = X :60   Y :60    Z :60    Status:0
+PosX3-Y3 = X :72   Y :72    Z :72    Status:0
+PosX3-Y4 = X :84   Y :84    Z :84    Status:0
+PosX4-Y0 = X :48   Y :48    Z :48    Status:0
+PosX4-Y1 = X :60   Y :60    Z :60    Status:0
+PosX4-Y2 = X :72   Y :72    Z :72    Status:0
+PosX4-Y3 = X :84   Y :84    Z :84    Status:0
+PosX4-Y4 = X :96   Y :96    Z :96    Status:0

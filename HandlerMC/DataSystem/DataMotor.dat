@@ -1,0 +1,10 @@
+[Data]
+
+AccDec				= 30 
+SpeedJog1			= 12 
+SpeedJog2			= 8 
+SpeedJog3			= 5 
+SpeedOriginZ1	                = 20 
+SpeedOriginZ2		        = 20 
+SpeedRunZ1			= 40 
+SpeedRunZ2			= 40 

@@ -1,0 +1,18 @@
+[Data]
+
+DelayCylinderTool1Robot			 = 500 
+DelayCylinderTool2Robot			 = 500 
+DelayCylinderTool3Robot			 = 500 
+DelayCylinderTool4Robot			 = 500 
+DelayCylinderSocket1FwRv			 = 50 
+DelayCylinderSocket2FwRv			 = 50 
+DelayCylinderSocket3FwRv			 = 50 
+DelayCylinderSocket4FwRv			 = 50 
+DelayCylinderSocket1UpDown			 = 50 
+DelayCylinderSocket2UpDown			 = 50 
+DelayCylinderSocket3UpDown			 = 50 
+DelayCylinderSocket4UpDown			 = 50 
+DelayCylinderHandler			     = 50 
+DelayCylinderAline			         = 50 
+DelayCylinderRotation			     = 50 
+DelayCylinderStack			         = 50 

@@ -1,0 +1,79 @@
+
+[Data]
+
+IP = 100.100.110.100
+Port = 8017
+
+CmRunRobotLoadingTool1Up   = Pick_From_Tray_T1
+CmRunRobotLoadingTool1Down = Pick_From_Tray_T1
+CmRunRobotLoadingTool2Up   = Pick_From_Tray_T2
+CmRunRobotLoadingTool2Down = Pick_From_Tray_T2
+
+CmRunRobotUnloadingLeftTool3Up   = Place_To_Tray_T3
+CmRunRobotUnloadingLeftTool4Up   = Place_To_Tray_T4
+CmRunRobotUnloadingLeftTool3Down = Place_To_Tray_T3
+CmRunRobotUnloadingLeftTool4Down = Place_To_Tray_T4
+
+CmRunRobotUnloadingRightTool3Up    = Place_To_Tray_T3
+CmRunRobotUnloadingRightTool4Up    = Place_To_Tray_T4
+CmRunRobotUnloadingRightTool3Down  = Place_To_Tray_T3
+CmRunRobotUnloadingRightTool4Down  = Place_To_Tray_T4
+
+CmRunRobotUnloadingTrayOKTool3Up   = Place_To_Tray_T3
+CmRunRobotUnloadingTrayOKTool4Up   = Place_To_Tray_T4
+CmRunRobotUnloadingTrayOKTool3Down = Place_To_Tray_T3
+CmRunRobotUnloadingTrayOKTool4Down = Place_To_Tray_T4
+
+
+CmRunRobotLoadingSocket1Tool1Up = Place_To_MC_T1
+CmRunRobotLoadingSocket2Tool1Up = Place_To_MC_T1
+CmRunRobotLoadingSocket3Tool1Up = Place_To_MC_T1
+CmRunRobotLoadingSocket4Tool1Up = Place_To_MC_T1
+
+CmRunRobotLoadingSocket1Tool1Down = Place_To_MC_T1(0,0,0,1,1)
+CmRunRobotLoadingSocket2Tool1Down = Place_To_MC_T1(0,0,0,2,1)
+CmRunRobotLoadingSocket3Tool1Down = Place_To_MC_T1(0,0,0,3,1)
+CmRunRobotLoadingSocket4Tool1Down = Place_To_MC_T1(0,0,0,4,1)
+
+CmRunRobotLoadingSocket1Tool2Up = Place_To_MC_T2
+CmRunRobotLoadingSocket2Tool2Up = Place_To_MC_T2
+CmRunRobotLoadingSocket3Tool2Up = Place_To_MC_T2
+CmRunRobotLoadingSocket4Tool2Up = Place_To_MC_T2
+
+CmRunRobotLoadingSocket1Tool2Down = Place_To_MC_T2(0,0,0,1,1)
+CmRunRobotLoadingSocket2Tool2Down = Place_To_MC_T2(0,0,0,2,1)
+CmRunRobotLoadingSocket3Tool2Down = Place_To_MC_T2(0,0,0,3,1)
+CmRunRobotLoadingSocket4Tool2Down = Place_To_MC_T2(0,0,0,4,1)
+
+
+CmRunRobotUnloadingSocket1Tool3Up = Pick_From_MC_T3(1,0)
+CmRunRobotUnloadingSocket2Tool3Up = Pick_From_MC_T3(2,0)
+CmRunRobotUnloadingSocket3Tool3Up = Pick_From_MC_T3(3,0)
+CmRunRobotUnloadingSocket4Tool3Up = Pick_From_MC_T3(4,0)
+
+CmRunRobotUnloadingSocket1Tool3Down = Pick_From_MC_T3(1,1)
+CmRunRobotUnloadingSocket2Tool3Down = Pick_From_MC_T3(2,1)
+CmRunRobotUnloadingSocket3Tool3Down = Pick_From_MC_T3(3,1)
+CmRunRobotUnloadingSocket4Tool3Down = Pick_From_MC_T3(4,1)
+
+CmRunRobotUnloadingSocket1Tool4Up = Pick_From_MC_T4(1,0)
+CmRunRobotUnloadingSocket2Tool4Up = Pick_From_MC_T4(2,0)
+CmRunRobotUnloadingSocket3Tool4Up = Pick_From_MC_T4(3,0)
+CmRunRobotUnloadingSocket4Tool4Up = Pick_From_MC_T4(4,0)
+
+CmRunRobotUnloadingSocket1Tool4Down= Pick_From_MC_T4(1,1)
+CmRunRobotUnloadingSocket2Tool4Down= Pick_From_MC_T4(2,1)
+CmRunRobotUnloadingSocket3Tool4Down= Pick_From_MC_T4(3,1)
+CmRunRobotUnloadingSocket4Tool4Down= Pick_From_MC_T4(4,1)
+
+CmRunRobotVisionTool1    = Move_To_Align
+CmRunRobotVisionTool2    = Move_To_Align
+CmRunRobotAlineTool1     = Move_To_Align_M
+CmRunRobotAlineTool2     = Move_To_Align_M
+CmRunRobotAlinePickTool1 = Pick_Align_M
+CmRunRobotAlinePickTool2 = Pick_Align_M
+
+CmRunRobotUnloadingTrayLoading   = Pick_Tray
+CmRunRobotUnloadingTrayUnloading = Place_Work_Tray_To_Out
+
+CmRunRobotDownMore = Down_More(-2)

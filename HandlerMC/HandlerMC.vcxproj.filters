@@ -1,0 +1,395 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="3D Button">
+      <UniqueIdentifier>{89f1aeb5-ec4c-437e-9e5b-a2a689c2f7be}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Save File">
+      <UniqueIdentifier>{ecc95805-bcdd-4e1e-a7c1-b15e1339cc72}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Vision">
+      <UniqueIdentifier>{abf4b04d-22ba-4ff8-b2bd-c2fd8ba63372}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="TCP Client">
+      <UniqueIdentifier>{bc517c59-fdf6-447f-a7e0-9979a2fc4064}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Motion IO">
+      <UniqueIdentifier>{0cded6a0-f969-46c0-8449-69c42a62f9dc}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="DataProject">
+      <UniqueIdentifier>{a855d5da-44a9-4a89-9c10-20bbe34db15a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Visionsoftware">
+      <UniqueIdentifier>{f20ac7fe-1f33-4dea-9133-71c0eb4e97b7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Rs232">
+      <UniqueIdentifier>{c13d02d2-e8fb-44fa-9c86-f63c686d42fd}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Rs232 Event">
+      <UniqueIdentifier>{eeaa502a-1c2d-4a65-8834-ecb48f670db1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\TCP">
+      <UniqueIdentifier>{0bfbee43-b869-4257-be4d-ce994f336162}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="CameraOmron">
+      <UniqueIdentifier>{6fbd3340-1bba-480b-bd4e-92d8aa65a35c}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <Text Include="ReadMe.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="HandlerMC.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="stdafx.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="targetver.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="MainFrm.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="HandlerMCDoc.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="HandlerMCView.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Resource.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="DataDlg.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="LogDlg.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="ManualDlg.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="TeachDlg.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="ChangeModelDlg.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="CreateModelDlg.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="GCharDlg.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="GetNumberDlg.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="btnenh.h">
+      <Filter>3D Button</Filter>
+    </ClInclude>
+    <ClInclude Include="_Font.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="DataDefine.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="IniFile.h">
+      <Filter>Save File</Filter>
+    </ClInclude>
+    <ClInclude Include="ImAdvPanel.h">
+      <Filter>Vision</Filter>
+    </ClInclude>
+    <ClInclude Include="ImagePanel.h">
+      <Filter>Vision</Filter>
+    </ClInclude>
+    <ClInclude Include="ImPanel.h">
+      <Filter>Vision</Filter>
+    </ClInclude>
+    <ClInclude Include="ImScrollHelper.h">
+      <Filter>Vision</Filter>
+    </ClInclude>
+    <ClInclude Include="MyDefine.h">
+      <Filter>Vision</Filter>
+    </ClInclude>
+    <ClInclude Include="DlgInput.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="DefineNameInOut.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="TCPClient.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="ClientSocket.h">
+      <Filter>Source Files\TCP</Filter>
+    </ClInclude>
+    <ClInclude Include="MEthernet.h">
+      <Filter>Source Files\TCP</Filter>
+    </ClInclude>
+    <ClInclude Include="MIEthernet.h">
+      <Filter>Source Files\TCP</Filter>
+    </ClInclude>
+    <ClInclude Include="MTickTimer.h">
+      <Filter>Source Files\TCP</Filter>
+    </ClInclude>
+    <ClInclude Include="safequeue.h">
+      <Filter>Source Files\TCP</Filter>
+    </ClInclude>
+    <ClInclude Include="DefSystem.h">
+      <Filter>Source Files\TCP</Filter>
+    </ClInclude>
+    <ClInclude Include="GTCRobotCtrl2.h">
+      <Filter>TCP Client</Filter>
+    </ClInclude>
+    <ClInclude Include="ConnectSocket.h">
+      <Filter>TCP Client</Filter>
+    </ClInclude>
+    <ClInclude Include="AXA.h">
+      <Filter>Motion IO</Filter>
+    </ClInclude>
+    <ClInclude Include="AXD.h">
+      <Filter>Motion IO</Filter>
+    </ClInclude>
+    <ClInclude Include="AXHS.h">
+      <Filter>Motion IO</Filter>
+    </ClInclude>
+    <ClInclude Include="AXL.h">
+      <Filter>Motion IO</Filter>
+    </ClInclude>
+    <ClInclude Include="AXM.h">
+      <Filter>Motion IO</Filter>
+    </ClInclude>
+    <ClInclude Include="MotionLBR.h">
+      <Filter>Motion IO</Filter>
+    </ClInclude>
+    <ClInclude Include="ReadDataMotion.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="DlgOriginAll.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="DataMotorDlg.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="SelectAction.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="VisionDlg.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="ViewStepRunDlg.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="SaveDataModel.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="savedata.h">
+      <Filter>DataProject</Filter>
+    </ClInclude>
+    <ClInclude Include="vision.h">
+      <Filter>Visionsoftware</Filter>
+    </ClInclude>
+    <ClInclude Include="SerialCtrl.h">
+      <Filter>Rs232</Filter>
+    </ClInclude>
+    <ClInclude Include="RS232COM.h">
+      <Filter>Rs232 Event</Filter>
+    </ClInclude>
+    <ClInclude Include="Pcomm.h">
+      <Filter>Rs232 Event</Filter>
+    </ClInclude>
+    <ClInclude Include="DlgDelayVaccum.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="DlgDelayCylinder.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="AutoDlg.h">
+      <Filter>DataProject</Filter>
+    </ClInclude>
+    <ClInclude Include="CameraOmron.h">
+      <Filter>CameraOmron</Filter>
+    </ClInclude>
+    <ClInclude Include="XmlNodeWrapper.h">
+      <Filter>Vision</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="HandlerMC.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="stdafx.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="MainFrm.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="HandlerMCDoc.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="HandlerMCView.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="AutoDlg.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="DataDlg.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="LogDlg.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="ManualDlg.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="TeachDlg.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="ChangeModelDlg.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="GCharDlg.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="GetNumberDlg.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="btnenh.cpp">
+      <Filter>3D Button</Filter>
+    </ClCompile>
+    <ClCompile Include="IniFile.cpp">
+      <Filter>Save File</Filter>
+    </ClCompile>
+    <ClCompile Include="ImAdvPanel.cpp">
+      <Filter>Vision</Filter>
+    </ClCompile>
+    <ClCompile Include="ImagePanel.cpp">
+      <Filter>Vision</Filter>
+    </ClCompile>
+    <ClCompile Include="ImPanel.cpp">
+      <Filter>Vision</Filter>
+    </ClCompile>
+    <ClCompile Include="ImScrollHelper.cpp">
+      <Filter>Vision</Filter>
+    </ClCompile>
+    <ClCompile Include="DlgInput.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="TCPClient.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="ClientSocket.cpp">
+      <Filter>Source Files\TCP</Filter>
+    </ClCompile>
+    <ClCompile Include="MEthernet.cpp">
+      <Filter>Source Files\TCP</Filter>
+    </ClCompile>
+    <ClCompile Include="MTickTimer.cpp">
+      <Filter>Source Files\TCP</Filter>
+    </ClCompile>
+    <ClCompile Include="GTCRobotCtrl2.cpp">
+      <Filter>TCP Client</Filter>
+    </ClCompile>
+    <ClCompile Include="ConnectSocket.cpp">
+      <Filter>TCP Client</Filter>
+    </ClCompile>
+    <ClCompile Include="MotionLBR.cpp">
+      <Filter>Motion IO</Filter>
+    </ClCompile>
+    <ClCompile Include="ReadDataMotion.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="DlgOriginAll.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="DataMotorDlg.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="SelectAction.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="VisionDlg.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="ViewStepRunDlg.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="SaveDataModel.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="savedata.cpp">
+      <Filter>DataProject</Filter>
+    </ClCompile>
+    <ClCompile Include="AppVision.cpp">
+      <Filter>Visionsoftware</Filter>
+    </ClCompile>
+    <ClCompile Include="SerialCtrl.cpp">
+      <Filter>Rs232</Filter>
+    </ClCompile>
+    <ClCompile Include="RS232COM.cpp">
+      <Filter>Rs232 Event</Filter>
+    </ClCompile>
+    <ClCompile Include="DlgDelayVaccum.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="DlgDelayCylinder.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="CreateModelDlg.cpp">
+      <Filter>Resource Files</Filter>
+    </ClCompile>
+    <ClCompile Include="CameraOmron.cpp">
+      <Filter>CameraOmron</Filter>
+    </ClCompile>
+    <ClCompile Include="XmlNodeWrapper.cpp">
+      <Filter>Vision</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="HandlerMC.rc">
+      <Filter>Resource Files</Filter>
+    </ResourceCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="UserImages.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\HandlerMCDoc.ico">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\HandlerMC.ico">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\Toolbar.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\Toolbar256.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="res\HandlerMC.rc2">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="AXL.dll">
+      <Filter>Motion IO</Filter>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <Library Include="AXL.lib">
+      <Filter>Motion IO</Filter>
+    </Library>
+  </ItemGroup>
+</Project>

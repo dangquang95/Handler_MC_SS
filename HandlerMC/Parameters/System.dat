@@ -1,0 +1,64 @@
+[Data]
+
+d_Point_Tool_1_X			 = 0.000000 
+d_Point_Tool_1_Y			 = 0.000000 
+d_dAgnle_Tool_1				= 0.000000 
+d_Point_Tool_2_X			 = 0.000000 
+d_Point_Tool_2_Y			 = 0.000000 
+d_dAgnle_Tool_2			 = 0.000000 
+check_blur			 = 0 
+kSize_Tool_1		 = 0 
+kSize_Tool_2		 = 0 
+d_check_thresh		 = 0 
+d_threshold_tool_1	 = 0.000000 
+d_threshold_tool_2	 = 0.000000 
+areaContours		 = 0 
+areaContours_2		 = 0 
+d_morSize_tool_1			= 0 
+d_morSize_tool_2			= 0 
+erode						= 0 
+dilate						= 0 
+erode_dilate				= 0 
+dilate_erode				= 0 
+d_Check_Apply_Morphology	= 0 
+minArea					 = 0 
+maxArea					 = 0 
+minWidth				 = 0 
+maxWidth				 = 0 
+minHeight				 = 0 
+maxHeight				 = 0 
+d_check_remove_noise	 = 0 
+check_process			 = 0 
+offset_x				 = 0.000000 
+offset_y				 = 0.000000 
+offset_angle			 = 0.000000 
+d_rad_tool_1			 = 0 
+d_rad_tool_2			 = 0 
+offset_x2				 = 0.000000 
+offset_y2				 = 0.000000 
+offset_angle2			 = 0.000000 
+d_rad_tool_2			 = 0 
+00 
+offset_angle2			 = 0.098000 
+d_rad_tool_2			 = 0 
+
+
+
+y2				 = 0.000000 
+offset_angle2			 = 0.000000 
+d_rad_tool_2			 = 0 
+ 
+maxWidth				 = 3000 
+minHeight				 = 600 
+maxHeight				 = 2000 
+d_check_remove_noise	 = 1 
+check_process			 = 0 
+offset_x				 = 0.000000 
+offset_y				 = 0.000000 
+offset_angle			 = 0.000000 
+d_rad_tool_1			 = 0 
+d_rad_tool_2			 = 1 
+offset_x2				 = 0.000000 
+offset_y2				 = 0.000000 
+offset_angle2			 = 0.000000 
+d_rad_tool_2			 = 1 

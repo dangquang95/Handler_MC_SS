@@ -1,0 +1,12 @@
+[Data]
+
+DelayVaccumTool1Robot			 = 500 
+DelayVaccumTool2Robot			 = 500 
+DelayVaccumTool3Robot			 = 500 
+DelayVaccumTool4Robot			 = 500 
+DelayVaccumSocket1			 = 800 
+DelayVaccumSocket2			 = 800 
+DelayVaccumSocket3			 = 800 
+DelayVaccumSocket4			 = 800 
+m_DataDelayVaccumTray			 = 500 
+0 

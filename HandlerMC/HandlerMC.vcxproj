@@ -1,0 +1,332 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="14.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|Win32">
+      <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|Win32">
+      <Configuration>Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Debug|x64">
+      <Configuration>Debug</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|x64">
+      <Configuration>Release</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{321F5AE9-A495-428A-80CE-F268D554FB50}</ProjectGuid>
+    <RootNamespace>HandlerMC</RootNamespace>
+    <WindowsTargetPlatformVersion>10.0.14393.0</WindowsTargetPlatformVersion>
+    <Keyword>MFCProj</Keyword>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <PlatformToolset>v140</PlatformToolset>
+    <CharacterSet>MultiByte</CharacterSet>
+    <UseOfMfc>Dynamic</UseOfMfc>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <PlatformToolset>v140</PlatformToolset>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <CharacterSet>Unicode</CharacterSet>
+    <UseOfMfc>Dynamic</UseOfMfc>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <PlatformToolset>v140</PlatformToolset>
+    <CharacterSet>MultiByte</CharacterSet>
+    <UseOfMfc>Dynamic</UseOfMfc>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <PlatformToolset>v140</PlatformToolset>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <CharacterSet>Unicode</CharacterSet>
+    <UseOfMfc>Dynamic</UseOfMfc>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="Shared">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <LinkIncremental>true</LinkIncremental>
+    <IncludePath>$(ProjectDir)\DataCam\include\StApi;$(ProjectDir)include\opencv;$(ProjectDir)\DataCam\include\GenICam;$(IncludePath)</IncludePath>
+    <LibraryPath>$(ProjectDir)lib\opencv;$(ProjectDir)DataCam\lib\Win32;$(LibraryPath)</LibraryPath>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <LinkIncremental>true</LinkIncremental>
+    <IncludePath>$(ProjectDir)\DataCam\include\StApi;$(ProjectDir)include\opencv;$(ProjectDir)\DataCam\include\GenICam;$(IncludePath)</IncludePath>
+    <LibraryPath>$(ProjectDir)lib\opencv;$(ProjectDir)DataCam\lib\Win32;$(LibraryPath)</LibraryPath>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <LinkIncremental>false</LinkIncremental>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <LinkIncremental>false</LinkIncremental>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <ClCompile>
+      <PrecompiledHeader>Use</PrecompiledHeader>
+      <WarningLevel>Level3</WarningLevel>
+      <Optimization>Disabled</Optimization>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;_DEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <SDLCheck>true</SDLCheck>
+      <AdditionalIncludeDirectories>%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ClCompile>
+    <Link>
+      <SubSystem>Windows</SubSystem>
+      <AdditionalDependencies>opencv_world330.lib;opencv_world330d.lib;%(AdditionalDependencies)</AdditionalDependencies>
+      <AdditionalLibraryDirectories>%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+    </Link>
+    <Midl>
+      <MkTypLibCompatible>false</MkTypLibCompatible>
+      <ValidateAllParameters>true</ValidateAllParameters>
+      <PreprocessorDefinitions>_DEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+    </Midl>
+    <ResourceCompile>
+      <Culture>0x0409</Culture>
+      <PreprocessorDefinitions>_DEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>$(IntDir);%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <ClCompile>
+      <PrecompiledHeader>Use</PrecompiledHeader>
+      <WarningLevel>Level3</WarningLevel>
+      <Optimization>Disabled</Optimization>
+      <PreprocessorDefinitions>_WINDOWS;_DEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <SDLCheck>true</SDLCheck>
+      <AdditionalIncludeDirectories>$(ProjectDir)include\DataCam\include\GenICam;$(ProjectDir)include\DataCam\include\StApi;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ClCompile>
+    <Link>
+      <SubSystem>Windows</SubSystem>
+      <AdditionalLibraryDirectories>C:\opencv_330\x64\vc14\lib;%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <AdditionalDependencies>opencv_world330.lib;opencv_world330d.lib;VirtualFG40.lib;%(AdditionalDependencies)</AdditionalDependencies>
+    </Link>
+    <Midl>
+      <MkTypLibCompatible>false</MkTypLibCompatible>
+      <ValidateAllParameters>true</ValidateAllParameters>
+      <PreprocessorDefinitions>_DEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+    </Midl>
+    <ResourceCompile>
+      <Culture>0x0409</Culture>
+      <PreprocessorDefinitions>_DEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>$(IntDir);%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <PrecompiledHeader>Use</PrecompiledHeader>
+      <Optimization>MaxSpeed</Optimization>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;NDEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <SDLCheck>true</SDLCheck>
+    </ClCompile>
+    <Link>
+      <SubSystem>Windows</SubSystem>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+    </Link>
+    <Midl>
+      <MkTypLibCompatible>false</MkTypLibCompatible>
+      <ValidateAllParameters>true</ValidateAllParameters>
+      <PreprocessorDefinitions>NDEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+    </Midl>
+    <ResourceCompile>
+      <Culture>0x0409</Culture>
+      <PreprocessorDefinitions>NDEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>$(IntDir);%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <PrecompiledHeader>Use</PrecompiledHeader>
+      <Optimization>MaxSpeed</Optimization>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <PreprocessorDefinitions>_WINDOWS;NDEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <SDLCheck>true</SDLCheck>
+    </ClCompile>
+    <Link>
+      <SubSystem>Windows</SubSystem>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+    </Link>
+    <Midl>
+      <MkTypLibCompatible>false</MkTypLibCompatible>
+      <ValidateAllParameters>true</ValidateAllParameters>
+      <PreprocessorDefinitions>NDEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+    </Midl>
+    <ResourceCompile>
+      <Culture>0x0409</Culture>
+      <PreprocessorDefinitions>NDEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>$(IntDir);%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <Text Include="ReadMe.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="AutoDlg.h" />
+    <ClInclude Include="AXA.h" />
+    <ClInclude Include="AXD.h" />
+    <ClInclude Include="AXHS.h" />
+    <ClInclude Include="AXL.h" />
+    <ClInclude Include="AXM.h" />
+    <ClInclude Include="btnenh.h" />
+    <ClInclude Include="CameraOmron.h" />
+    <ClInclude Include="ChangeModelDlg.h" />
+    <ClInclude Include="ClientSocket.h" />
+    <ClInclude Include="ConnectSocket.h" />
+    <ClInclude Include="CreateModelDlg.h" />
+    <ClInclude Include="DataDefine.h" />
+    <ClInclude Include="DataDlg.h" />
+    <ClInclude Include="DataMotorDlg.h" />
+    <ClInclude Include="DefineNameInOut.h" />
+    <ClInclude Include="DefSystem.h" />
+    <ClInclude Include="DlgDelayCylinder.h" />
+    <ClInclude Include="DlgDelayVaccum.h" />
+    <ClInclude Include="DlgInput.h" />
+    <ClInclude Include="DlgOriginAll.h" />
+    <ClInclude Include="GCharDlg.h" />
+    <ClInclude Include="GetNumberDlg.h" />
+    <ClInclude Include="GTCRobotCtrl2.h" />
+    <ClInclude Include="HandlerMC.h" />
+    <ClInclude Include="HandlerMCDoc.h" />
+    <ClInclude Include="HandlerMCView.h" />
+    <ClInclude Include="ImAdvPanel.h" />
+    <ClInclude Include="ImagePanel.h" />
+    <ClInclude Include="ImPanel.h" />
+    <ClInclude Include="ImScrollHelper.h" />
+    <ClInclude Include="IniFile.h" />
+    <ClInclude Include="LogDlg.h" />
+    <ClInclude Include="MainFrm.h" />
+    <ClInclude Include="ManualDlg.h" />
+    <ClInclude Include="MEthernet.h" />
+    <ClInclude Include="MIEthernet.h" />
+    <ClInclude Include="MotionLBR.h" />
+    <ClInclude Include="MTickTimer.h" />
+    <ClInclude Include="MyDefine.h" />
+    <ClInclude Include="Pcomm.h" />
+    <ClInclude Include="ReadDataMotion.h" />
+    <ClInclude Include="Resource.h" />
+    <ClInclude Include="RS232COM.h" />
+    <ClInclude Include="safequeue.h" />
+    <ClInclude Include="savedata.h" />
+    <ClInclude Include="SaveDataModel.h" />
+    <ClInclude Include="SelectAction.h" />
+    <ClInclude Include="SerialCtrl.h" />
+    <ClInclude Include="stdafx.h" />
+    <ClInclude Include="targetver.h" />
+    <ClInclude Include="TCPClient.h" />
+    <ClInclude Include="TeachDlg.h" />
+    <ClInclude Include="ViewStepRunDlg.h" />
+    <ClInclude Include="vision.h" />
+    <ClInclude Include="VisionDlg.h" />
+    <ClInclude Include="XmlNodeWrapper.h" />
+    <ClInclude Include="_Font.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="AppVision.cpp" />
+    <ClCompile Include="AutoDlg.cpp" />
+    <ClCompile Include="btnenh.cpp" />
+    <ClCompile Include="CameraOmron.cpp" />
+    <ClCompile Include="ChangeModelDlg.cpp" />
+    <ClCompile Include="ClientSocket.cpp" />
+    <ClCompile Include="ConnectSocket.cpp" />
+    <ClCompile Include="CreateModelDlg.cpp" />
+    <ClCompile Include="DataDlg.cpp" />
+    <ClCompile Include="DataMotorDlg.cpp" />
+    <ClCompile Include="DlgDelayCylinder.cpp" />
+    <ClCompile Include="DlgDelayVaccum.cpp" />
+    <ClCompile Include="DlgInput.cpp" />
+    <ClCompile Include="DlgOriginAll.cpp" />
+    <ClCompile Include="GCharDlg.cpp" />
+    <ClCompile Include="GetNumberDlg.cpp" />
+    <ClCompile Include="GTCRobotCtrl2.cpp" />
+    <ClCompile Include="HandlerMC.cpp" />
+    <ClCompile Include="HandlerMCDoc.cpp" />
+    <ClCompile Include="HandlerMCView.cpp" />
+    <ClCompile Include="ImAdvPanel.cpp" />
+    <ClCompile Include="ImagePanel.cpp" />
+    <ClCompile Include="ImPanel.cpp" />
+    <ClCompile Include="ImScrollHelper.cpp" />
+    <ClCompile Include="IniFile.cpp" />
+    <ClCompile Include="LogDlg.cpp" />
+    <ClCompile Include="MainFrm.cpp" />
+    <ClCompile Include="ManualDlg.cpp" />
+    <ClCompile Include="MEthernet.cpp" />
+    <ClCompile Include="MotionLBR.cpp" />
+    <ClCompile Include="MTickTimer.cpp" />
+    <ClCompile Include="ReadDataMotion.cpp" />
+    <ClCompile Include="RS232COM.cpp" />
+    <ClCompile Include="savedata.cpp" />
+    <ClCompile Include="SaveDataModel.cpp" />
+    <ClCompile Include="SelectAction.cpp" />
+    <ClCompile Include="SerialCtrl.cpp" />
+    <ClCompile Include="stdafx.cpp">
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">Create</PrecompiledHeader>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Create</PrecompiledHeader>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">Create</PrecompiledHeader>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Create</PrecompiledHeader>
+    </ClCompile>
+    <ClCompile Include="TCPClient.cpp" />
+    <ClCompile Include="TeachDlg.cpp" />
+    <ClCompile Include="ViewStepRunDlg.cpp" />
+    <ClCompile Include="VisionDlg.cpp" />
+    <ClCompile Include="XmlNodeWrapper.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="HandlerMC.rc" />
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="res\HandlerMC.ico" />
+    <Image Include="res\HandlerMCDoc.ico" />
+    <Image Include="res\Toolbar.bmp" />
+    <Image Include="res\Toolbar256.bmp" />
+    <Image Include="UserImages.bmp" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="AXL.dll" />
+    <None Include="res\HandlerMC.rc2" />
+  </ItemGroup>
+  <ItemGroup>
+    <Library Include="AXL.lib" />
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+  <ProjectExtensions>
+    <VisualStudio>
+      <UserProperties _x007B_40B5CE81-C5A8-11D2-8183-00002440DFD8_x007D_="BSTR" RESOURCE_FILE="HandlerMC.rc" />
+    </VisualStudio>
+  </ProjectExtensions>
+</Project>
